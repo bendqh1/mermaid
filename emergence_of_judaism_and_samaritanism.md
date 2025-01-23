@@ -1,0 +1,5 @@
+flowchart TD
+    A1[Israelite-Judean Polytheism and Yahwism]
+    A1 --> A2[Babylonian Exile Yahwism]
+    A2 --> A3[Second Temple Period Yahwism] && A3 --> A4[Second Temple Period Samaritanism]
+    A3 && A4 --> A5[Early mainstream Judaism] && A6[[Early Yeshua'ite Judaism]
