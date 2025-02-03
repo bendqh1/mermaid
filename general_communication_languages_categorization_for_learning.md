@@ -14,27 +14,35 @@ Speakers of type 3 and type 4 could learn each other's language fast because bot
 ```mermaid
 flowchart TD
 
-  A1[Speaking a Primarily Consonant GCL]
-  A2[Speaking a Primarily Vowelant GCL]
-  A3[Speaking a Mixed with Tendency to Consonant GCL]
-  A4[Speaking a Mixed with Tendency to Vowelant GCL]
+  subgraph A [Speaking GCLs]
+    A1[Primarily Consonant GCL]
+    A2[Primarily Vowelant GCL]
+    A3[Mixed, Tendency to Consonant GCL]
+    A4[Mixed, Tendency to Vowelant GCL]
+  end
 
-  B1[Learning a Primarily Consonant GCL]
-  B2[Learning a Primarily Vowelant GCL]
-  B3[Learning a Mixed GCL with Tendency to Consonant]
-  B4[Learning a Mixed GCL with Tendency to Vowelant]
+  subgraph B [Learning GCLs]
+    B1[Primarily Consonant GCL]
+    B2[Primarily Vowelant GCL]
+    B3[Mixed, Tendency to Consonant GCL]
+    B4[Mixed, Tendency to Vowelant GCL]
+  end
 
-  C1[Generally easy]
-  C2[Generally hard]
-  
+  subgraph C [Ease of Learning]
+    C1[Generally Easy]
+    C2[Generally Hard]
+  end
+
   A1 & B1 --> C1
   A2 & B2 --> C1
 
   A1 & B2 --> C2
-  B2 & A1 --> C2
+  B1 & A2 --> C2
 
   A3 & B3 --> C1
-  A4 & A4 --> C1
+  A4 & B4 --> C1
 
   B3 & B4 --> C1
+
+  A3 & B4 --> XX1[Special case]
 ```
