@@ -50,5 +50,3 @@ flowchart TD
 
   A3 & B4 --> XX1[Special case]
 ```
-
--->
