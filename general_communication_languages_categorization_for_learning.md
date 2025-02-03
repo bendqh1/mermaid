@@ -25,7 +25,7 @@ flowchart TD
   B4[Learning a Mixed GCL with Tendency to Vowelant]
 
   C1[Generally easy]
-  B2[Generally hard]
+  C2[Generally hard]
   
   A1 & B1 --> C1
   A2 & B2 --> C1
