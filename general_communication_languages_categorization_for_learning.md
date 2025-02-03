@@ -1,7 +1,7 @@
 From my experience, a Human Vocal General Communication Language (HVGCL) can be either:
 
 1. Primarily Consonant
-1. Primarily vowelant (rare)
+1. Primarily vowelant
 1. Primarily mixed with a tendency to consonant
 1. Primarily mixed with a tendency to vowelant
 
