@@ -11,20 +11,20 @@ English and Russian are of type 1, while Thai and Vietnamese of type 3 and there
 ```mermaid
 flowchart TD
 
-  subgraph A [Speaking GCLs]
+  subgraph A [Speaking]
     A1[Primarily Consonant GCL]
     A2[Primarily Vowelant GCL]
     A3[Mixed but primarily consonant-vowel conjoined]
   end
 
-  subgraph B [Learning GCLs]
+  subgraph B [Learning]
     B1[Primarily Consonant GCL]
     B2[Primarily Vowelant GCL]
     B3[Mixed but primarily consonant-vowel conjoined]
   end
 
-  A1 <-->|Easy learning| B1
-  A2 <-->|Easy learning| B2
-  A3 <-->|Easy learning| B3
+  A1 <-->|Easy| B1
+  A2 <-->|Easy| B2
+  A3 <-->|Easy| B3
 
 ```
