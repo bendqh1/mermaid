@@ -1,6 +1,5 @@
 ```mermaid
 flowchart TD
-
   A1[Very Consonant] -> B1[Very Non Tonal]
   A3[Very Vowelant] -> B3[Very Much Tonal]
 
