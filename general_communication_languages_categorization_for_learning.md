@@ -23,6 +23,7 @@ flowchart TD
     B3[Mixed but primarily consonant-vowel conjoined]
   end
 
-  A1 <-->|Easy| B2
+  A1 <-->|Easy| B1
+  A2 <-->|Easy| B2
   A3 <-->|Easy more likely than not| B3
 ```
