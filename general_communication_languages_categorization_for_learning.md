@@ -12,20 +12,18 @@ English and Russian are of type 1, while Thai and Vietnamese of type 3 and there
 flowchart TD
 
   subgraph A [Speaking]
-    A1[Primarily Consonant GCL]
-    A2[Primarily Vowelant GCL]
+    A1[Primarily Consonant]
+    A2[Primarily Vowelant]
     A3[Primarily consonant-vowel conjoined]
   end
 
   subgraph B [Learning]
-    B1[Primarily Consonant GCL]
-    B2[Primarily Vowelant GCL]
+    B1[Primarily Consonant]
+    B2[Primarily Vowelant]
     B3[Primarily consonant-vowel conjoined]
   end
 
-  subgraph C [Hardness]
-    A1 <-->|Easy| B1
-    A2 <-->|Easy| B2
-    A3 <-->|Easy more likely than not| B3
-  end
+  A1 <-->|Easy| B1
+  A2 <-->|Easy| B2
+  A3 <-->|Easy more likely than not| B3
 ```
