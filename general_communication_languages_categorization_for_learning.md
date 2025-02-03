@@ -2,9 +2,6 @@
 flowchart TD
   A1[Very Consonant] --> B1[Very Non Tonal]
   A3[Very Vowelant] --> B3[Very Much Tonal]
-
-  A1 & B1 --> C1[Easy to Learn]
-  A3 & B3 --> C2[Harder to Learn]
 ```
 
 We can put `A2[Very Phonetically Mixed] --> B2[Very Tonally Mixed]` between the first two childs of the first wrapper but we don't have too.<br>
