@@ -25,8 +25,7 @@ flowchart TD
 
   A1 <-->|Easy| B1
   A2 <-->|Easy| B2
-  A3 <-->|Easy| B3
-
+  A3 <-->|Easy more likely than not| B3
 ```
 
 ```mermaid
@@ -46,6 +45,5 @@ flowchart TD
 
   A1 <-->|Hard| B2
   A2 <-->|Hard| B1
-  A3 <-->|Easy| B3
-
+  A3 <-->|Easy more likely than not| B3
 ```
