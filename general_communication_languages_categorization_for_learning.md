@@ -23,16 +23,8 @@ flowchart TD
     B3[Mixed but primarily consonant-vowel conjoined]
   end
 
-  subgraph C [Ease of Learning]
-    C1[Generally Easy]
-    C2[Generally Hard]
-  end
-
-  A1 & B1 --> C1
-  A2 & B2 --> C1
-  A3 & B3  --> C1
-
-  A1 & B2 --> C2
-  A1 & B3 --> C2
+  A1 <-->|Easy learning| B1
+  A2 <-->|Easy learning| B2
+  A3 <-->|Easy learning| B3
 
 ```
