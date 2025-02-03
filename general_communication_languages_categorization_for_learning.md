@@ -23,9 +23,9 @@ flowchart TD
     B3[Primarily consonant-vowel conjoined]
   end
 
-  A1 <-->|Easy| B1
-  A2 <-->|Easy| B2
-  A3 <-->|Easy| B3
+  A1 --> |Easy| B1
+  A2 --> |Easy| B2
+  A3 --> |Easy| B3
   A1 --> |Hard| B2
   B2 --> |Hard| A1
 ```
