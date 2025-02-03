@@ -11,8 +11,6 @@ But
 
 Speakers of type 3 and type 4 could learn each other's language fast because both types are mixed.
 
-<!--
-
 ## Mermaid
 
 ```mermaid
