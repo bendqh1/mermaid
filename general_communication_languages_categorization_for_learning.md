@@ -6,7 +6,7 @@ From my experience, a General Communication Language (GCL) can be either:
 
 English and Russian are of type 1, while Thai and Vietnamese of type 3 and therefore type 1 speakers could learn each other's languages fast, but will have a hard time learning type 3 languages and vice versa.
 
-## Chart
+## Charts
 
 ```mermaid
 flowchart TD
@@ -25,6 +25,27 @@ flowchart TD
 
   A1 <-->|Easy| B1
   A2 <-->|Easy| B2
+  A3 <-->|Easy| B3
+
+```
+
+```mermaid
+flowchart TD
+
+  subgraph A [Speaking]
+    A1[Primarily Consonant GCL]
+    A2[Primarily Vowelant GCL]
+    A3[Mixed but primarily consonant-vowel conjoined]
+  end
+
+  subgraph B [Learning]
+    B1[Primarily Consonant GCL]
+    B2[Primarily Vowelant GCL]
+    B3[Mixed but primarily consonant-vowel conjoined]
+  end
+
+  A1 <-->|Hard| B2
+  A2 <-->|Hard| B1
   A3 <-->|Easy| B3
 
 ```
