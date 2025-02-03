@@ -25,7 +25,7 @@ flowchart TD
 
   A1 --> |Easy| B1
   A2 --> |Easy| B2
-  A3 --> |Easy| B3
   A1 --> |Hard| B2
   B2 --> |Hard| A1
+  A3 --> |Easy| B3
 ```
