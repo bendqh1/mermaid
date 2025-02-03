@@ -23,6 +23,7 @@ flowchart TD
     B3[Primarily consonant-vowel conjoined]
   end
 
+  subgraph C [Hardness]
   A1 <-->|Easy| B1
   A2 <-->|Easy| B2
   A3 <-->|Easy more likely than not| B3
