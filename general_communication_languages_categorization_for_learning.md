@@ -1,4 +1,4 @@
-From my experience, a Human Vocal General Communication Language (HVGCL) can be either:
+From my experience, a General Communication Language (GCL) can be either:
 
 1. Primarily Consonant
 1. Primarily vowelant
@@ -12,23 +12,29 @@ But
 Speakers of type 3 and type 4 could learn each other's language fast because both types are mixed.
 
 ```mermaid
-flowchart LR
+flowchart TD
 
-  A[Human Vocal General Communication Language] --> B{Language Type}
-  B --> B1[Primarily Consonant]
-  B --> B2[Primarily Vowelant]
-  B --> B3[Mixed with Tendency to Consonant]
-  B --> B4[Mixed with Tendency to Vowelant]
+  A1[Speaking a Primarily Consonant GCL]
+  A2[Speaking a Primarily Vowelant GCL]
+  A3[Speaking a Mixed with Tendency to Consonant GCL]
+  A4[Speaking a Mixed with Tendency to Vowelant GCL]
 
-  C1[Generally easy learning]
-  C2[Generally hard learning]
+  B1[Learning a Primarily Consonant GCL]
+  B2[Learning a Primarily Vowelant GCL]
+  B3[Learning a Mixed GCL with Tendency to Consonant]
+  B4[Learning a Mixed GCL with Tendency to Vowelant]
+
+  C1[Generally easy]
+  B2[Generally hard]
   
-  B1 & B1 --> C1
-  B2 & B2 --> C1
-  B1 & B3 --> C2
-  B1 & B4 --> C2
-  B2 & B3 --> C2
-  B2 & B4 --> C2
+  A1 & B1 --> C1
+  A2 & B2 --> C1
+
+  A1 & B2 --> C2
+  B2 & A1 --> C2
+
+  A3 & B3 --> C1
+  A4 & A4 --> C1
+
   B3 & B4 --> C1
 ```
-  
