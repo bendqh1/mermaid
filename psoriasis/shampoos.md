@@ -2,24 +2,18 @@
 
 Applying color in Mermaid in year 2025 can be cumbersome so here is a way in a Markdown:
 
-| Shampoo Name                  | Main Use(s)            |
-|-------------------------------|------------------------|
-| <span style="color:green">Zinc Pyrithione Shampoo</span>    | Seborrhea              |
-| <span style="color:green">Ketoconazole Shampoo</span>       | Seborrhea              |
-| <span style="color:blue">Selenium Sulfide Shampoo</span>    | Seborrhea, Psoriasis   |
-| <span style="color:blue">Salicylic Acid Shampoo</span>      | Seborrhea, Psoriasis   |
-| <span style="color:red">Coal Tar Shampoo</span>             | Psoriasis              |
-| <span style="color:red">Coal Tar Solution Shampoo</span>    | Psoriasis              |
+| Shampoo type                    | Type                            |
+|---------------------------------|---------------------------------|
+| Zinc pyrithione shampoo         | Mainly for Seborrhea            |
+| Ketoconazole shampoo            | Mainly for Seborrhea            |
+| Piroctone olamine               | Mainly for Seborrhea            |
+| Ciclopirox shampoo              | Mainly for Seborrhea            |
+| Tea Tree Oil shampoo            | For Seborrhea and Psoriasis     |
+| Selenium Sulfide shampoo        | For Seborrhea and Psoriasis     |
+| Salicylic acid shampoo          | For Seborrhea and Psoriasis     |
+| Coal tar shampoo                | Mainly for Psoriasis            |
+| Coal tar solution shampoo       | Mainly for Psoriasis            |
+| Clobetasol shampoo              | Mainly for Psoriasis            |
+
 ## Mermaid
 
-```mermaid
-graph TD
-    A[Zinc Pyrithione Shampoo] --> B[Seborrhea]
-    C[Ketoconazole Shampoo] --> B[Seborrhea]
-    D[Selenium Sulfide Shampoo] --> B[Seborrhea]
-    D[Selenium Sulfide Shampoo] --> C[Psoriasis]
-    E[Salicylic Acid Shampoo] --> B[Seborrhea]
-    E[Salicylic Acid Shampoo] --> C[Psoriasis]
-    F[Coal Tar Shampoo] --> C[Psoriasis]
-    G[Coal Tar Solution Shampoo] --> C[Psoriasis]
-```
