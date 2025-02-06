@@ -4,18 +4,18 @@ Applying color in Mermaid in year 2025 can be cumbersome so here is a way in a M
 
 | Shampoo type                    | Purpose                         |
 |---------------------------------|---------------------------------|
-| Zinc pyrithione shampoo         | Mainly for Seborrhea            |
-| Ketoconazole shampoo            | Mainly for Seborrhea            |
+| Zinc pyrithione                 | Mainly for Seborrhea            |
+| Azoles                          | Mainly for Seborrhea            |
 | Piroctone olamine               | Mainly for Seborrhea            |
-| Ciclopirox shampoo              | Mainly for Seborrhea            |
+| Ciclopirox                      | Mainly for Seborrhea            |
 |                                 |                                 |
-| Coal tar shampoo                | Mainly for Psoriasis            |
-| Coal tar solution shampoo       | Mainly for Psoriasis            |
-| Clobetasol shampoo              | Mainly for Psoriasis            |
+| Coal tar                        | Mainly for Psoriasis            |
+| Coal tar solution               | Mainly for Psoriasis            |
+| Clobetasol                      | Mainly for Psoriasis            |
 |                                 |                                 |
-| Selenium Sulfide shampoo        | For Seborrhea and Psoriasis     |
-| Salicylic acid shampoo          | For Seborrhea and Psoriasis     |
-| Tea Tree Oil shampoo            | For Seborrhea and Psoriasis     |
+| Selenium Sulfide                | Mainly for both                 |
+| Salicylic acid                  | Mainly for both                 |
+| Tea Tree Oil                    | Mainly for both                 |
 
 ## Mermaid
 
