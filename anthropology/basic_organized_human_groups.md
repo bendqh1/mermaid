@@ -9,7 +9,5 @@ flowchart TD
     C --> C1[Uniethnic state]
     C --> C2[Multiethnic state]
 
-'|:
-
     B3 --> C1
     B4 --> C2
