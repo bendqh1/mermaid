@@ -1,3 +1,4 @@
+```mermaid
 flowchart TD
     A[Territorial group]
     A --> B1[Family]
@@ -11,3 +12,4 @@ flowchart TD
 
     B3 --> C1
     B4 --> C2
+```
