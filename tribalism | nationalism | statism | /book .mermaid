@@ -2,17 +2,21 @@ flowchart TD
 
     %% Territorial group
     subgraph A[Territorial group]
+        B1[Family]
+        B2[Tribe]
+        B3[Folk]
+        B4[Nation]
     end
 
-    A --> B1[Family]
-    A --> B2[Tribe]
-    A --> B3[Folk]
-    A --> B4[Nation]
+    A --> B1
+    A --> B2
+    A --> B3
+    A --> B4
 
     %% State
     subgraph C[State]
-    C --> C1[Uniethnic state]
-    C --> C2[Multiethnic state]
+        C --> C1[Uniethnic state]
+        C --> C2[Multiethnic state]
     end
 
     B3 --> C1
