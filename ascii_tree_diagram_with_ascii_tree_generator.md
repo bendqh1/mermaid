@@ -6,7 +6,9 @@ Create a classic "tree" or "directory listing" style diagram in command-line too
 
 ---
 
-## Question
+## English Thai keypads
+
+### Question
 
 Create for me a map, by ASCII tree, of a QWERTI English-Thai keyboard.
 
@@ -16,7 +18,7 @@ No numbers.
 
 Short answer.
 
-## Answer
+### Answer
 
 <pre>
 q  → ๆ | ๐
